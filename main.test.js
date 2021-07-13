@@ -69,10 +69,10 @@ test('caesar: handles sentences', () => {
 
 test('analyze: contains right properties', () => {
   expect(analyze([1,2,3,4,5,6])).toEqual(expect.objectContaining({
-    average: expect.any(Number);
-    min: expect.any(Number);
-    max: expect.any(Number);
-    length: expect.any(Number);
+    average: expect.any(Number),
+    min: expect.any(Number),
+    max: expect.any(Number),
+    length: expect.any(Number),
   }));
 });
 
