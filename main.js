@@ -1,6 +1,9 @@
 import capitalize from './capitalize';
 import reverseString from './reverseString';
 import calculator from './calculator';
+import caesar from './caesar';
+import analyze from './analyze';
+
 test('capitalize: first letter capitalized', () => {
   expect(capitalize('Letter')).toMatch(/^[A-Z]/);
 });
