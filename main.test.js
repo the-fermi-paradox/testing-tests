@@ -55,7 +55,7 @@ test('caesar: shifts string', () => {
 });
 
 test('caesar: handles punctuation', () => {
-  expect(caesar('/,gk')).toEqual(',/jn');
+  expect(caesar('/,gk')).toEqual('/,jn');
 });
 
 test('caesar: preserves case', () => {
